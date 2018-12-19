@@ -36,6 +36,7 @@ public class ContollerClass {
 	@RequestMapping(value="/addEmployee",method=RequestMethod.POST)
 	public ModelAndView addEmployee(@Validated User user,Model model) {
 		System.out.println(user);
+		System.out.println("Learning pull request");
 		return new ModelAndView("home","message","");
 	}
 	
