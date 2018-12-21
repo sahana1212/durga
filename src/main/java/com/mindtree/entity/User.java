@@ -1,6 +1,6 @@
 package com.mindtree.entity;
 
-public class User1 {
+public class User {
 	private String username;
 	private String password;
 	private int userId;
