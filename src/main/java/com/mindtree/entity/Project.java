@@ -1,6 +1,6 @@
 package com.mindtree.entity;
 
-public class Project {
+public class Project {{{
 	
 	private int projectid;
 	private String projectname;
